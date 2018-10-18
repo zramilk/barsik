@@ -7,11 +7,11 @@ def webhook(session):
 
     if action == 'event1':
         print('Received request from event1 action')
-        session['variable1'] = "value1"
+        session['variable1'] = "молодец"
 
     elif action == 'event2':
         print('Received request from event2 action')
-        session['variable2'] = "value2"
+        session['variable2'] = "неудачник"
 
     elif action == 'event3':
         print('Received request from event3 action')
